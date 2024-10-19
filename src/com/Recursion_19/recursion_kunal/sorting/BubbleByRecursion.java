@@ -1,7 +1,6 @@
-package com.Recursion_19.recursion_kunal;
+package com.Recursion_19.recursion_kunal.sorting;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class BubbleByRecursion {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.Recursion_19.recursion_kunal;
+package com.Recursion_19.recursion_kunal.sorting;
 
 public class Reverse_of_a_number {
     public static void main(String[] args) {

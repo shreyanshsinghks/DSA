@@ -1,4 +1,4 @@
-package com.Recursion_19.recursion_kunal;
+package com.Recursion_19.recursion_kunal.sorting;
 
 public class MergeSort {
     public static void main(String[] args) {
