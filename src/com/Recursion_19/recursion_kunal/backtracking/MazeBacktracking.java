@@ -1,6 +1,5 @@
-package com.Recursion_19.recursion_kunal.string;
+package com.Recursion_19.recursion_kunal.backtracking;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class MazeBacktracking {

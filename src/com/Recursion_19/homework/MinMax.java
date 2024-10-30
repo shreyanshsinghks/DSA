@@ -1,6 +1,4 @@
-package com.binary_search_kunal.homework;
-
-import java.util.List;
+package com.Recursion_19.homework;
 
 public class MinMax {
     public static void main(String[] args) {
