@@ -94,7 +94,7 @@ public class NQueens {
     private static boolean isSafeMy(boolean[][] board, int row, int col) {
 //        checking for vertical
         for (int i = 0; i < row; i++) {
-            if (board[i][col]){
+            if (board[row][i]){
                 return false;
             }
         }
