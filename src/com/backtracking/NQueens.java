@@ -1,4 +1,4 @@
-package com.Recursion_19.recursion_kunal.backtracking;
+package com.backtracking;
 
 public class NQueens {
     public static void main(String[] args) {

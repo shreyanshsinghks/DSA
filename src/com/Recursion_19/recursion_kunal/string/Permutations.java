@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Permutations {
     public static void main(String[] args) {
-//        permutation("", "abcd");
-        List<String> str = permutationList("", "abc");
-        System.out.println(str);
+        permutation("", "abccfgyhdt");
+//        List<String> str = permutationList("", "abc");
+//        System.out.println(str);
     }
 
 
@@ -19,7 +19,7 @@ public class Permutations {
         char ch = up.charAt(0);
         for (int i = 0; i <= p.length(); i++) {
             String first = p.substring(0, i);
-            String second = p.substring(i, p.length());
+            String second = p.substring(i);
             permutation(first + ch + second, up.substring(1));
         }
     }
