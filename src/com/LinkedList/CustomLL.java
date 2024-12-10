@@ -80,18 +80,33 @@ public class CustomLL {
         if (size <= 1) {
             return deleteFirst();
         }
-        Node secondLast  = get(size - 2);
+        Node secondLast = get(size - 2);
         int val = tail.value;
         tail = secondLast;
         tail.next = null;
         return val;
     }
 
-    public int deleteIndex(int index){
+    public int deleteIndex(int index) {
         Node node = get(index - 1);
         int val = node.next.value;
         node.next = node.next.next;
         return val;
+    }
+
+    public void insertUsingRecursion(int val, int index) {
+        head = insertRecur(val, index, head);
+    }
+
+    private Node insertRecur(int val, int index, Node currNode){
+        if (index == 0){
+            Node temp = new Node(val, currNode);
+            size++;
+            return temp;
+        }
+
+        currNode.next = insertRecur(val, --index, currNode.next);
+        return currNode;
     }
 
     private static class Node {
