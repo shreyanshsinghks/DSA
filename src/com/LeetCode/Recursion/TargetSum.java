@@ -1,4 +1,4 @@
-package com.LeetCode;
+package com.LeetCode.Recursion;
 
 public class TargetSum {
     public static void main(String[] args) {

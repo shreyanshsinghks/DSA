@@ -1,6 +1,4 @@
-package com.LeetCode;
-
-import java.util.Arrays;
+package com.LeetCode.Recursion;
 
 public class CheckStrings1662 {
     public static void main(String[] args) {

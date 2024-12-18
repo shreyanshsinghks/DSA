@@ -1,7 +1,6 @@
-package com.LeetCode;
+package com.LeetCode.Recursion;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class CombinationSums {

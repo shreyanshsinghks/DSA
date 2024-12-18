@@ -1,4 +1,4 @@
-package com.LeetCode;
+package com.LeetCode.Recursion;
 
 public class find_kth_bit_in_nth_binary_search {
     public static void main(String[] args) {

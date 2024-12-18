@@ -1,4 +1,4 @@
-package com.LeetCode;
+package com.LeetCode.Recursion;
 
 class FindKthCharacter {
 
